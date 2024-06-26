@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Card = ({ data, title }) => {
-  console.log(data);
+  // console.log(data);
   return (
     <div>
       <div className="w-[100%] flex flex-wrap ml-[5%]  mt-10 ">

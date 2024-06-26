@@ -6,7 +6,7 @@ import secondimage from "/noimage.jpg"
 
 const HorizontalCard = ({ data, func }) => {
 
-  console.log(data);
+  // console.log(data);
   return (
     
 

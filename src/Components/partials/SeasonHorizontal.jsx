@@ -5,7 +5,7 @@ import secondimage from "/noimage.jpg"
 
 const SeasonHorizontal = ({ data, func }) => {
 
-  console.log(data);
+  // console.log(data);
   return data.length >0 ? (
     
 

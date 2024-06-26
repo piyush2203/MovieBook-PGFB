@@ -10,7 +10,7 @@ const TrailerTv = () => {
   const { pathname } = useLocation();
   const category = pathname.includes("tv") ? "tv" : "tv";
   const ytvideo = useSelector((state) => state.tv.info.videos);
-  console.log(pathname, ytvideo);
+  // console.log(pathname, ytvideo);
 
   return ytvideo ? (
     <div>

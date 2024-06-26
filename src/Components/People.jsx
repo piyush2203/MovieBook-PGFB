@@ -23,7 +23,7 @@ const People = () => {
       const { data } = await axios.get(
         `/person/popular`
       );
-      console.log(data);
+      // console.log(data);
 
       setPeople(data.results);
     } catch (error) {

@@ -27,19 +27,19 @@ const Home = () => {
       console.log("Error: ", error);
     }
   };
-  console.log(trending);
+  // console.log(trending);
 
   const GetTrending = async () => {
     try {
       const { data } = await axios.get(`/trending/${category}/day`);
 
       settrending(data.results);
-      console.log("data", data);
+      // console.log("data", data);
     } catch (error) {
       console.log("Error: ", error);
     }
   };
-  console.log(trending);
+  // console.log(trending);
 
   useEffect(() => {
     !wallpaper && GetHeaderWallpaper();

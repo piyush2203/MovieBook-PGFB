@@ -27,7 +27,7 @@ const personDetail = () => {
   const { id } = useParams();
   const { info } = useSelector((state) => state.person);
   const Dispatch = useDispatch();
-  console.log(info);
+  // console.log(info);
   useEffect(() => {
     Dispatch(asyncloadperson(id));
     return () => {
@@ -36,7 +36,7 @@ const personDetail = () => {
   }, [id]);
   const navigate = useNavigate();
   const [category, setcategory] = useState("movie")
-  console.log(info);
+  // console.log(info);
 
   return info ? (
     <div className="px-[15%] w-screen min-h-[200vh] bg-[#1F1E24] pb-[5%] ">
