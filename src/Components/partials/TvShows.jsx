@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { FaArrowLeft } from "react-icons/fa";
-import Topnav from "./partials/Topnav";
-import Dropdown from "./partials/Dropdown";
-import axios from "../utils/Axios";
-import Card from "./partials/Card";
-import Loading from "./partials/Loading";
+import Topnav from "./Topnav";
+import Dropdown from "./Dropdown";
+import axios from "../../utils/Axios";
+import Card from "./Card";
+import Loading from "./Loading";
 import LocomotiveScroll from "locomotive-scroll";
 
 const TvShows = () => {

@@ -4,9 +4,8 @@ import Home from "./Components/Home";
 import Trending from "./Components/Trending";
 import Popular from "./Components/Popular";
 import Movie from "./Components/Movie";
-import TvShows from "./Components/TvShows";
+import TvShows from "./Components/partials/TvShows";
 import People from "./Components/People";
-import LocomotiveScroll from "locomotive-scroll";
 import MovieDetail from "./Components/movieDetail";
 import TvDetails from "./Components/tvDetails";
 import PersonDetails from "./Components/personDetails";
@@ -19,7 +18,6 @@ import TrailerTv from "./Components/partials/TrailerTv";
 
 
 const App = () => {
-  const locomotiveScroll = new LocomotiveScroll();
   return (
     <div className='w-full h-screen bg-[#1F1E24] flex font-["Satoshi"] '>
       <Routes>
