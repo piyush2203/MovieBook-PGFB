@@ -28,9 +28,9 @@ const Header = ({ data }) => {
         <IoMdMegaphone  className="text-yellow-400"/>{data.release_date || "No Info"}
         
       </p>
-      <p className="text-white mt-[1.5%] flex gap-3 items-center" ><IoMdAlbums className="text-yellow-400"/> {data.media_type.toUpperCase()}</p>
+      <p className="text-white mt-[1.5%] flex gap-3 items-center w-[30%]" ><IoMdAlbums className="text-yellow-400"/> {data.media_type.toUpperCase()}</p>
 
-      <Link to={`/${data.media_type}/details/${data.id}/trailer`} className="bg-[#6556CD] p-[1vh] w-[8vw] mt-4 rounded">Watch Trailer</Link>
+      <Link to={`/${data.media_type}/details/${data.id}/trailer`} className="bg-[#6556CD] p-[1vh] w-[8vw] h-[8vh] mt-4 rounded">Watch Trailer</Link>
 
     </div>
   );
