@@ -19,7 +19,7 @@ import TrailerTv from "./Components/partials/TrailerTv";
 
 const App = () => {
   return (
-    <div className='w-full h-screen bg-[#1F1E24] flex font-["Satoshi"] '>
+    <div className='w-full  min-h-screen bg-[#1F1E24] flex font-["Satoshi"] '>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/trending" element={<Trending />}></Route>
