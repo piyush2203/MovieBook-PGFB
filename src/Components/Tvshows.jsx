@@ -8,7 +8,7 @@ import Card from "./partials/Card";
 import Loading from "./partials/Loading";
 import LocomotiveScroll from "locomotive-scroll";
 
-const Tvshows = () => {
+const TvShows = () => {
   const navigate = useNavigate();
   const [category, setcategory] = useState("airing_today");
   const [duration, setduration] = useState("day");
@@ -69,5 +69,5 @@ const Tvshows = () => {
   );
 };
 
-export default Tvshows;
+export default TvShows;
 

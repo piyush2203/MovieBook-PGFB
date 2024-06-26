@@ -4,7 +4,7 @@ import Home from "./Components/Home";
 import Trending from "./Components/Trending";
 import Popular from "./Components/Popular";
 import Movie from "./Components/Movie";
-import Tvshows from "./Components/TvShows";
+import TvShows from "./Components/TvShows";
 import People from "./Components/People";
 import LocomotiveScroll from "locomotive-scroll";
 import MovieDetail from "./Components/movieDetail";
@@ -34,7 +34,7 @@ const App = () => {
         
         </Route>
 
-        <Route path="/tvshows" element={<Tvshows />} />
+        <Route path="/tvshows" element={<TvShows />} />
         <Route path="/tv/details/:id" element={<TvDetails />}>
             <Route path="/tv/details/:id/trailer" element={<TrailerTv />} ></Route>
         
