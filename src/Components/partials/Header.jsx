@@ -17,13 +17,14 @@ const Header = ({ data }) => {
       }}
       className="w-full h-[50vh] border-y-2 border-white flex flex-col justify-end p-[3%] "
     >
-      <h1 className="text-[300%] w-[70%] font-black text-white">
+      <div className="h-[70%] overflow-y-auto w-full"></div>
+      <h1 className="text-[300%] w-[70%] h-[10vh] font-black text-white">
         {data.original_title || data.title || data.name || data.original_name}
       </h1>
       
-      <p className="w-[70%] text-white mt-[1%]">{data.overview.slice(0,200)}...<Link className="text-zinc-500" to={`/${data.media_type}/details/${data.id}`} >more</ Link >
+      <p className="w-[85%] text-white mt-[1%]">{data.overview.slice(0,200)}...<Link className="text-zinc-500" to={`/${data.media_type}/details/${data.id}`} >more</ Link >
       </p>
-      <p className="text-white mt-[1.5%] flex gap-3 items-center">
+      <p className="text-white mt-[1.5%] h-[5vh] flex gap-3 items-center">
         <IoMdMegaphone  className="text-yellow-400"/>{data.release_date || "No Info"}
         
       </p>
