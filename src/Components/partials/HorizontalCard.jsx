@@ -10,7 +10,7 @@ import "slick-carousel/slick/slick-theme.css";
 const HorizontalCard = ({ data, func }) => {
 
   const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow:6,
@@ -22,7 +22,7 @@ const HorizontalCard = ({ data, func }) => {
     
 
 
-    <div className="w-full h-[40vh] overflow-auto p-5 ">
+    <div className="w-full h-[40vh] overflow-auto m-auto ">
       
       
       <div className="w-[95%] h-[100%] overflow-auto overflow-y-auto m-auto ">
