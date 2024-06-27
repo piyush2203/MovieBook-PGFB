@@ -88,7 +88,7 @@ const tvDetail = () => {
           <h1 className="text-[1.2vw] ml-[5%] w-[150%] font-semibold italic text-zinc-300 mb-[2%] ">"{info.details.tagline}"</h1>
 
           <div className="text-zinc-300 ml-[5%] mb-[1%] flex items-center gap-x-[3%] w-[150%]">
-              <span className="text-white text-xl w-[6vh] h-[6vh] flex justify-center  items-center bg-yellow-600 rounded-full font-semibold ">{(info.details.vote_average*10).toFixed()}<sup>%</sup></span>
+              <span className="text-white text-xl w-[6vh] h-[6vh] flex justify-center items-center bg-yellow-600 rounded-full font-semibold ">{(info.details.vote_average*10).toFixed()}<sup>%</sup></span>
 
               <h1>Users Score</h1>
               <h1>{info.details.first_air_date}</h1>

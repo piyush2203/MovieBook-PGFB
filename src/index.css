@@ -5,6 +5,9 @@
 /* primary color #1F1E24 */
 /* Secondary */
 
+.slick-slide>div{
+    margin: 0 10px;
+}
 
 ::-webkit-scrollbar{
     width: 7px;
