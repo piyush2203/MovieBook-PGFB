@@ -64,6 +64,7 @@ const Movie = () => {
       </div>
 
       <Card data={movie} title="movie" />
+      
     </div>
   ) : (
     <Loading />
